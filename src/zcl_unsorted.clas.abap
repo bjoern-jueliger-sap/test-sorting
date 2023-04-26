@@ -10,32 +10,38 @@ public section.
     methods aardvark.
 protected section.
 private section.
-endclass.
+ENDCLASS.
 
 
 
-class zcl_unsorted implementation.
+CLASS ZCL_UNSORTED IMPLEMENTATION.
+
 
   method zigzag.
+    data(var) = 1.
   endmethod.
+
 
   method aardvark.
   endmethod.
+
 
   method if_ci_atc_check~get_meta_data.
 
   endmethod.
 
+
   method if_ci_atc_check~run.
 
   endmethod.
+
 
   method if_ci_atc_check~set_assistant_factory.
 
   endmethod.
 
+
   method if_ci_atc_check~verify_prerequisites.
 
   endmethod.
-
-endclass.
+ENDCLASS.
